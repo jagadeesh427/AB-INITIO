@@ -1,0 +1,45 @@
+how to sepearte first name and last name:
+
+jagadeesh yadav
+
+string_substring("name", 1,9)
+out: : ref(in) =
+begin
+out.cust_id : : in.cust_id;
+out.score : : in.score;
+out.zip : : in.zip;
+out.fname : : string_substring(in.name, 1, string_index(in.name, " ")-1);
+out.lname : : string_substring(in.name, string_index(in.name," ")+1,string_length(in.name));
+
+
+
+String functions:
+ string_split
+ re_replace
+ string_prefix
+ string_index
+ string_replace
+ string_suffix
+ string_ind ex
+ string_rindex
+ string_ike
+ string_substring
+ 
+
+
+
+
+validation functions
+is_defined
+is_error               
+is_null         data cleansing purpose
+is_blank
+
+
+
+
+
+
+
+
+
